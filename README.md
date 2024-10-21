@@ -5,29 +5,29 @@
 
 ## 2. Data Types:
    - Bone: Represents integer values
-     Example: Howl my_bone as Bone
+    * Example: Howl my_bone as Bone
    - Meat: Represents floating-point values
-     Example: Howl my_meat as Meat
+    * Example: Howl my_meat as Meat
    - Biscuit: Represents boolean values (crunchy = true, soft = false)
-     Example: Howl my_biscuit as Biscuit
+    * Example: Howl my_biscuit as Biscuit
 
 ## 3. Variables and Assignment:
    - Declaration: "Howl [name] as [type]"
-     Example: Howl age as Bone
+    * Example: Howl age as Bone
    - Assignment: "Mark [name] with [value]"
-     Example: Mark age with 5
+    * Example: Mark age with 5
 
 ## 4. Basic Operators:
    - Addition: "Fetch [bone1] and [bone2]"
-     Example: Fetch age and 3
+    * Example: Fetch age and 3
    - Subtraction: "Chase [bone1] from [bone2]"
-     Example: Chase 2 from age
+    * Example: Chase 2 from age
    - Multiplication: "Bury [bone1] [bone2] times"
-     Example: Bury age 2 times
+    * Example: Bury age 2 times
    - Division: "Share [bone1] among [bone2] pack members"
-     Example: Share age among 2 pack members
+    * Example: Share age among 2 pack members
    - Comparison: "Sniff [bone1] and [bone2]" (returns Biscuit)
-     Example: Sniff age and 10
+    * Example: Sniff age and 10
 
 ## 5. Control Structures:
    - If statement:
@@ -51,27 +51,29 @@
 
 ## 6. Input/Output:
    - Input: "Listen for [variable]"
-     Example: Listen for age
+    * Example: Listen for age
    - Output: "Howl [message]"
-     Example: Howl "Your age is: " age
+    * Example: Howl "Your age is: " age
 
 ## 7. Memory Model:
    - The den is represented as an infinite series of caves
    - Each cave stores one data item (Bone, Meat, or Biscuit)
    - Navigate using: "Dig [direction] to [cave_name]"
-     Example: Dig north to age_cave
+    * Example: Dig north to age_cave
 
 ## 8. Jump Commands:
    - Unconditional jump: "Run to [label]"
-     Example: Run to start_loop
+    * Example: Run to start_loop
    - Conditional jump: "If [condition] then run to [label]"
-     Example: If Sniff age and 18 then run to adult_section
+    * Example: If Sniff age and 18 then run to adult_section
 
 ## 9. Function Definition:
    - Define function:
+   ```WolfCode
      "Teach pack [function_name]
         [function body]
      Pack learned [function_name]"
+   ```
    - Call function: "Do [function_name]"
 
 ## 10. Comments:
@@ -220,38 +222,38 @@ Pack dispersing
 ## 2. 데이터 타입
 
 - Bone: 정수형 값
-예: Howl my_bone as Bone
+* 예: Howl my_bone as Bone
 
 - Meat: 부동 소수점 값
-예: Howl my_meat as Meat
+* 예: Howl my_meat as Meat
 
 - Biscuit: 불리언 값 (crunchy = 참, soft = 거짓)
-예: Howl my_biscuit as Biscuit
+* 예: Howl my_biscuit as Biscuit
 
 ## 3. 변수 선언 및 할당
 
 - 변수 선언: Howl [이름] as [타입]
-예: Howl age as Bone
+* 예: Howl age as Bone
 
 - 값 할당: Mark [이름] with [값]
-예: Mark age with 5
+* 예: Mark age with 5
 
 ## 4. 기본 연산자
 
 - 덧셈: Fetch [bone1] and [bone2]
-예: Fetch age and 3
+* 예: Fetch age and 3
 
 - 뺄셈: Chase [bone1] from [bone2]
-예: Chase 2 from age
+* 예: Chase 2 from age
 
 - 곱셈: Bury [bone1] [bone2] times
-예: Bury age 2 times
+* 예: Bury age 2 times
 
 - 나눗셈: Share [bone1] among [bone2] pack members
-예: Share age among 2 pack members
+* 예: Share age among 2 pack members
 
 - 비교: Sniff [bone1] and [bone2] (Biscuit을 반환)
-예: Sniff age and 10
+* 예: Sniff age and 10
 
 ## 5. 제어 구조
 
@@ -288,26 +290,26 @@ Pack moves on
 ## 6. 입출력:
 
 - 입력 받기: Listen for [변수]
-예: Listen for age
+* 예: Listen for age
 
 - 출력하기: Howl [메시지]
-예: Howl "Your age is: " age
+* 예: Howl "Your age is: " age
 
 ## 7. 메모리 모델
 
 - Den은 무한한 "caves"로 표현됨
-각 cave는 하나의 데이터 항목(Bone, Meat, 또는 Biscuit)을 저장
+- 각 cave는 하나의 데이터 항목(Bone, Meat, 또는 Biscuit)을 저장
 
 - 탐색: Dig [방향] to [cave_name]
-예: Dig north to age_cave
+* 예: Dig north to age_cave
 
 ## 8. 점프 명령어
 
 - 무조건 점프: Run to [label]
-예: Run to start_loop
+* 예: Run to start_loop
 
 - 조건부 점프: If [조건] then run to [label]
-예: If Sniff age and 18 then run to adult_section
+* 예: If Sniff age and 18 then run to adult_section
 
 ## 9. 함수 정의
 
@@ -328,8 +330,8 @@ Pack learned [함수명]
 
 ## 11. 프로그램 구조
 
-시작: Pack gathering
-끝: Pack dispersing
+- 시작: Pack gathering
+- 끝: Pack dispersing
 
 
 ## WolfCode Quick Sort
