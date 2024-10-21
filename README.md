@@ -43,7 +43,9 @@
      "While [condition] do
         [actions]
      Pack rests"
+  ```
    - For loop:
+  ```
      "For each [item] in [collection] do
         [actions]
      Pack moves on"
